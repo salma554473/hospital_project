@@ -1,0 +1,280 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+header{
+    background-image: url(../it/css/background.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+}
+header i{
+    font-size: 43px;
+    color: papayawhip;
+    margin: 10px;
+    text-shadow:0 0 3px #FF0000, 0 0 5px #0000FF;
+}
+.iocn_span{
+    color: papayawhip;
+    text-shadow:0 0 3px #FF0000, 0 0 5px #0000FF;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin: 5px;
+}
+header #navigation{
+    float: right;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    cursor: pointer;
+    margin: 8px 0px;
+}
+header ul li {
+    color: papayawhip;
+    list-style: none;
+    text-decoration: none;
+    display: inline-block;
+    margin: 5px;
+    padding: 8px;
+    font-size: 15px;
+    text-shadow:0 0 3px #FF0000, 0 0 5px #0000FF;
+}
+header ul li a{
+    text-decoration: none;
+    color: papayawhip;
+}
+header ul #signin{
+    color:#6f0628 ; 
+    border-bottom: 3px solid #6f0628 ;
+    text-shadow: none;
+    border-radius: 5px;
+}
+header ul .nav1{
+    color:#6f0628 ; 
+    border-bottom: 3px solid #6f0628 ;
+    text-shadow: none;
+    border-radius: 5px;
+}
+header ul li :hover{
+    color:#6f0628 ; 
+    border-bottom: 3px solid #6f0628 ;
+    border-radius: 5px;
+    text-shadow: none;
+}
+/* #main .style{
+    font-size: 18px;
+} */
+#main h1{
+    text-transform: capitalize;
+    margin: 20px 0px;
+}
+#main h2{
+    text-transform: capitalize;
+}
+#main img{
+    margin: 20px 0px;
+}
+#main .gender{
+    margin: 20px 0px;
+    width: 150px;
+}
+#main .bd{
+    margin: 20px 0px 30px 0px;
+}
+#account{
+    display:inline-block;
+    text-decoration: none; 
+    color: black;
+    margin: 20px;
+}
+.input{
+    padding:10px 200px 10px 10px; 
+    margin: 20px 0px;
+    text-transform: capitalize; 
+}
+main .user {
+    padding: 0px 85px;
+    margin: 20px;
+    text-align: center;
+    background: transparent;
+    color: rgb(204, 125, 141);
+    border: 1px solid black;
+    border-radius: 15px;
+    transition: 0.5s ease-in-out;
+}
+main .user{
+    text-align: center;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 30px;
+    color: rgb(204, 125, 141);
+}
+main .user:hover{
+    background-color: black;
+}
+main #account  {
+    padding: 0px 35px;
+    margin: 20px;
+    text-align: center;
+    background: transparent;
+    color: black;
+    border: 1px solid black;
+    border-radius: 15px;
+    transition: 0.5s ease-in-out;
+}
+main #account a{
+    text-align: center;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 45px;
+    color: rgb(204, 125, 141);
+}
+main #account:hover{
+    background-color: black;
+}
+.table{
+    margin:  100px auto;
+    width:90%;
+    height: 500px;
+}
+.table th{
+    background-color: black;
+    height: 50px;
+    color: rgb(218, 88, 114);
+    font-size: 25px;
+    text-transform: uppercase;
+
+}
+.table td{
+    background-color:whitesmoke;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+.table .pic{
+    background-color:whitesmoke;
+}
+table th img{
+    height: 100px;
+}
+#main .style{
+    font-size: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 65px 0px;
+}
+.device{
+    height: 250px;
+}
+.third{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(204, 125, 141);
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    height: 350px;
+    margin-top: 15px;
+    margin-bottom: 80px;
+}
+main .third h2{
+    font-size: 40px;
+    margin: 100px 100px 50px;
+    text-transform: capitalize;
+}
+main .third p{
+    font-size: 25px;
+    margin: 10px;
+    text-transform: capitalize;
+}
+footer{
+    width: 100%;
+    height: 280px;
+    background-color: black;
+    overflow: hidden;
+}
+footer .phone i{
+    color: palevioletred;
+    font-size: 20px;
+    margin: 29px;
+    position: absolute;
+    left: 20px;
+}
+footer .phone h3{
+    color: beige;
+    position: absolute;
+    left: 50px;
+    margin: -7px 25px;
+    padding: 10px;
+}
+footer .phone p{
+    color: rgba(245, 245, 220, 0.666);
+    position: absolute;
+    left: 50px;
+    margin: 20px 15px;
+    padding: 10px;
+}
+footer .email {
+    float: right;
+}
+footer .email i{
+    color: palevioletred;
+    font-size: 20px;
+    margin: 26px;
+    position: absolute;
+    right: 157px;
+}
+footer .email h3{
+    color: beige;
+    position: absolute;
+    right: 120px;
+    margin: -8px -28px;
+    padding: 10px;
+}
+footer .email p{
+    color: rgba(245, 245, 220, 0.666);
+    margin: 17px 62px;
+    padding: 10px;
+}
+footer #hlife{
+    color: beige;
+}
+footer #hlife i{
+    font-size: 25px;
+    position: absolute;
+    left: 41px;
+    color: palevioletred;
+    margin: -8px;
+}
+footer #hlife p{
+    color: beige;
+    line-height: 1.5;
+    margin: 0px 25px;
+    overflow: hidden;
+    width: 400px;
+    font-size: 16px;
+}
+footer #hlife h3{
+    color: beige;
+    margin: 22px 71px 13px;;
+}
+footer #follow-us{
+    float: right;
+    margin-top: -165px;
+    margin-right:85px;
+}
+footer #follow-us span i{
+    color: palevioletred;
+    font-size: 28px;
+    padding: 10px;
+    position: relative;
+    right: -75px;
+    margin: 0px 20px 0px 10px;
+}
+footer #follow-us h3{
+    color: beige;
+    margin: 0px 0px 0px 150px;
+}
